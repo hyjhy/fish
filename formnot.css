@@ -1,0 +1,14 @@
+li {
+    list-style: none;
+}
+
+.colorBtn {
+    width: 80px;
+    height: 30px;
+    background-color: green;
+    text-align: center;
+    color: white;
+    line-height: 30px; /* height 높이랑 같은 px로 맞춰준다 */
+    cursor: pointer;
+    border-radius: 15px;
+}

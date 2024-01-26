@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delayed Color Change</title>
+  <style>
+    /* 스타일링은 선택사항입니다. */
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    #colorBox, #changeBox{
+      width: 100px;
+      height: 100px;
+      border: 2px solid black;
+      transition: background-color 0.5s; /* 부드러운 색상 전환을 위한 트랜지션 추가 */
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <button onclick="startColorChange()">눌러주세요</button>
+
+  <div id="colorBox" style="background-color: red;"></div>
+  <div id="changeBox" style="background-color: gray;"></div>
+
+  <script>
+    function startColorChange() {
+      // 색상 변경을 하기 위한 코드
+      var colorBox = document.getElementById('changeBox');
+      var colorBox = document.getElementById('colorBox');
+
+      // 버튼 클릭 후 10초 후에 색상을 변경하는 함수 호출
+      setTimeout(function() {
+        changeColor(changeBox);
+      }, 1000); // 2분 (120,000 밀리초)
+
+      setTimeout(function() {
+        changeColor(colorBox);
+      }, 1000); // 2분 (120,000 밀리초)
+
+    }
+
+    function changeColor(changeBox) {
+      // 현재 색상을 확인
+      var currentColor = changeBox.style.backgroundColor;
+
+      // 현재 색상이 빨간색이면 초록색으로, 그 반대도 마찬가지
+      var newColor = (currentColor === 'red' || currentColor === '') ? 'gray' : 'red';
+
+      // 변경된 색상을 적용
+      changeBox.style.backgroundColor = newColor;
+    }
+
+    function changeColor(colorBox) {
+      // 현재 색상을 확인
+      var currentColor = colorBox.style.backgroundColor;
+
+      // 현재 색상이 빨간색이면 초록색으로, 그 반대도 마찬가지
+      var newColor = (currentColor === 'gray' || currentColor === '') ? 'green' : 'gray';
+
+      // 변경된 색상을 적용
+      colorBox.style.backgroundColor = newColor;
+
+        // 원래 색상으로 돌아가는 함수 호출
+        setTimeout(function() {
+        revertColor(colorBox, currentColor);
+      }, 1000); // 2분 (120,000 밀리초)
+    }
+
+    function revertColor(colorBox, originalColor) {
+      // 원래 색상으로 복원
+      colorBox.style.backgroundColor = originalColor;
+    
+    }
+
+  </script>
+
+</body>
+</html>

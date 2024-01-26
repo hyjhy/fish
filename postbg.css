@@ -1,0 +1,91 @@
+* {
+    font-family: 'Noto Sans KR', sasn-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+}
+
+.intro_bg {
+    /* background-image: url("./huji.jpg"); */
+    background-color: green;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /* background-image 폭을 자동으로 맞춰주고
+    높이는 넉넉하게 입력하기 */
+}
+
+.top {
+    width: 350px;
+    height: 250px;
+    /* background-color: red; */
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -23%);
+    background-color: beige;
+}
+
+.top_img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    width: 230px;
+    height: 80px;
+    background-color: blue;
+}
+
+.input_vl {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    width: 90%;
+    height: 40px;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+
+.dog {
+    font-size: 2em;
+    /* cursor: pointer; */
+    /* align-items: center; */
+    justify-content: center;
+    /* height: 60px; */
+    /* padding: 30px; */
+    display: flex;
+    position: relative;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    /* background-color: blue; */
+    width: 0;
+}
+
+.cha {
+    margin: 40px;
+    cursor: pointer;
+}
+
+/* 위에 상단 stlye설정 */
+.fos {
+    background-color: violet;
+    display: flex;
+    width: 500px;
+    height: 30px;
+    position: absolute;
+    top: 5%;
+    left: 95%;
+    transform: translate(-95%,-5%);
+    text-align: center;
+    /* cursor: pointer; */
+}
+
+.cos {
+    margin: auto;
+    cursor: pointer;
+}
