@@ -3,6 +3,10 @@ h1 {
     text-align: center;
 }
 
-h2 {
-    margin: 50px;
+aside {
+    background-color: palegoldenrod;
+}
+
+pre {
+    font-size: 1rem;
 }

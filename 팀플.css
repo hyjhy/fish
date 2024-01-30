@@ -1,0 +1,76 @@
+* {
+    font-family: 'Noto Sans KR', sasn-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+}
+
+.intro_bg {
+    background-image: url("./징크스배경.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+span {
+    font-size: 1rem;
+    margin: 10px;
+}
+
+.pr {
+    width: 400px;
+    height: 200px;
+    margin: 5px;
+}
+
+.sk {
+    width: 600px;
+    height: 500px;
+    margin: 1px;
+}
+
+.con {
+    display: flex;
+    align-items: center;
+}
+
+.list {
+    /* max-width: 100px; */
+    margin-right: 10px;
+    background-color: rgba(0, 0, 0, 0.739);
+    width: 950px;
+    height: 200px;
+}
+
+.mad {
+    position: absolute;
+    top: 80%;
+    left: 70%;
+    transform: translate(-70%, -80%);
+}
+
+strong,
+span,
+pre,
+h1 {
+    color: white;
+}
+
+.bac {
+    cursor: pointer;
+}
+
+img {
+    width: 35px;
+    height: 35px;
+}
+.nav {
+    background-color: rgba(0, 0, 0, 0.661);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50);
+}

@@ -1,0 +1,29 @@
+* {
+    font-family: 'Noto Sans KR', sasn-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+    height: 1000vh;
+}
+.intro_bg {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+
+
+.nav_bg {
+    background-color: blanchedalmond;
+    display: flex;
+}
+
+video {
+    width: 100px;
+    height: 100px;
+}

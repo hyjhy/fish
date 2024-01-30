@@ -1,0 +1,139 @@
+* {
+    font-family: 'Noto Sans KR', sasn-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+}
+
+.intro_bg {
+    background-image: url("./진짜\ 고화질\ 맵.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+span {
+    cursor: pointer;
+}
+
+.logo {
+    width: auto;
+    height: 100px;
+}
+
+.main_logo {
+    display: flex;
+}
+
+/* 포지션 아이콘 시작 */
+.op {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 94%;
+    left: 79%;
+    transform: translate(-79%, -94%);
+}
+
+.t {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 10%;
+    left: 22%;
+    transform: translate(-22%, -10%);
+}
+
+.md {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sp {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 88%;
+    left: 76%;
+    transform: translate(-76%, -88%);
+}
+
+.q {
+    background-color: rgba(1, 2, 1, 0.68);
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 94%;
+    left: 79%;
+    transform: translate(-79%, -94%);
+
+}
+
+.w {
+    background-color: rgba(1, 2, 1, 0.68);
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 88%;
+    left: 76%;
+    transform: translate(-76%, -88%);
+
+}
+
+
+.e {
+    background-color: rgba(1, 2, 1, 0.68);
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+.r {
+    background-color: rgba(1, 2, 1, 0.68);
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 10%;
+    left: 22%;
+    transform: translate(-22%, -10%);
+}
+
+
+/* 포지션 아이콘 끝 */
+
+
+.lol {
+    width: 230px;
+    height: 80px;
+    position: absolute;
+    top: 10%;
+    left: 80%;
+    transform: translate(-80%, -10%);
+}
+
+/* .lol-bg{
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 230px;
+    height: 80px;
+    position: absolute;
+    top: 10%;
+    left: 80%;
+    transform: translate(-80%, -10%);
+} */
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
