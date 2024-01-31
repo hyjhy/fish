@@ -1,0 +1,128 @@
+* {
+    font-family: 'Noto Sans KR', sasn-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+}
+
+.intro_bg {
+    background: url("./미스포츈.jpeg") no-repeat 50% 0 fixed;
+    background-size: cover;
+    background-position: center;
+    height: 200vh;
+}
+
+span {
+    font-size: 1rem;
+    margin: 10px;
+}
+
+.pr {
+    width: 400px;
+    height: 250px;
+    margin: 5px;
+}
+
+.sk {
+    width: 600px;
+    height: 500px;
+    margin: 1px;
+}
+
+.con {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 150px; */
+    position: relative;
+    top: 90px;
+}
+
+.list {
+    margin-right: 10px;
+    background-color: rgba(0, 0, 0, 0.739);
+    width: 950px;
+    height: 250px;
+    /* margin-top: 90px; */
+    /* position: relative; */
+    /* top: 90px; */
+}
+
+.mad {
+    position: absolute;
+    top: 80%;
+    left: 70%;
+    transform: translate(-70%, -80%);
+}
+
+strong,
+span,
+pre,
+h1,
+p {
+    color: white;
+}
+
+.bac {
+    cursor: pointer;
+}
+
+img {
+    width: 35px;
+    height: 35px;
+}
+
+.nav {
+    background-color: rgba(0, 0, 0, 0.661);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50);
+}
+
+h1 {
+    margin-left: 45px;
+    position: relative;
+    top: 80px;
+}
+
+h2 {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+article {
+    background-color: black;
+    position: relative;
+    top: 58vh;
+}
+
+video {
+    margin-top: 10%;
+    margin-left: 10%;
+    padding: 30px;
+}
+
+.mant {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.mant pre {
+    margin-top: 150px;
+}
+
+.guma {
+    background: url(./구마유시.jpeg) no-repeat 50% 0 fixed;
+    background-size: cover;
+    background-position: 0 90px;
+    height: 80vh;
+    position: relative;
+    top: 58vh;
+}
+
