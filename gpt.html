@@ -1,25 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        .container {
-            display: flex;
-            align-items: center; /* 수직 가운데 정렬 */
-        }
-
-        .image {
-            max-width: 100%; /* 이미지가 부모 요소를 넘지 않도록 최대 폭 설정 */
-            margin-right: 10px; /* 이미지 오른쪽에 간격 추가 */
-        }
-    </style>
-    <title>이미지와 텍스트</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* 텍스트 란에 간격 띄워진 스타일 설정 */
+    #text-container {
+      line-height: 1.5; /* 행 간격 설정, 기본값은 1 */
+      font-size: 16px; /* 폰트 크기 설정 */
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <img src="your-image-url.jpg" alt="Your Image" class="image">
-        <p>Your text goes here.</p>
-    </div>
+
+<div id="text-container">
+  여기는 간격이 띄워진<br>
+  텍스트 란입니다.
+</div>
+
 </body>
 </html>
